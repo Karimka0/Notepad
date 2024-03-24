@@ -21,6 +21,25 @@
     - `create_text_field():` Метод для создания текстового поля.
     - `change_font(font):` Метод для изменения шрифта текста.
 
+## Запуск
+
+1. Склонируйте репозиторий на свой компьютер:
+    ```
+    git clone https://github.com/Karimka0/Notepad
+    ```
+3. Чтобы просмотреть документацию, перейдите в ветку documentation и откройте файл README.md с помощью любого текстового редактора, например так
+    ```
+    git checkout documentation
+    nano README.md
+    
+    ```
+3. Чтобы запустить программу, перейдите в ветку dev и выполните в консоли команду
+    ```
+    git checkout dev
+    python3 Notepad.py
+    ```
+
+
 ## Автор
 
 Автор: Karim Mazitov, Б05-322
